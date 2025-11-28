@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.10)
+project(MyAssignmentProject)
+
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Create the executable
+add_executable(MyProject src/main.cpp)
+
+# On Windows, ensure the executable has .exe extension
+if(WIN32)
+    set_target_properties(MyProject PROPERTIES SUFFIX ".exe")
+endif()

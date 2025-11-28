@@ -1,0 +1,16 @@
+# Build directories
+build/
+release/
+
+# Compiled binaries
+*.exe
+MyProject
+
+# Archive files
+*.zip
+*.tar.gz
+*.tar
+
+# OS generated files
+.DS_Store
+Thumbs.db
